@@ -1,6 +1,6 @@
 import Test from './Test.jsx'
 function App() {
-
+  const name = "Ritik"
 
   return (
     //We can only return one element in this
@@ -9,6 +9,7 @@ function App() {
     <>
     <Test />
     <h1>Hello Ritik</h1>
+    <h1>Hello This is {name}</h1>
     </>
     
     
